@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Yisen Wang’s homepage. Research in symbolic computation, symbolic integration and summation.">
+<title>Yisen Wang | Homepage</title>
+<style>
+:root{background:##FFF9ED;color:#192b40;font:16px/1.65 system-ui,sans-serif}
+*{box-sizing:border-box}
+body{max-width:960px;margin:auto;padding:0 clamp(20px,5vw,54px)}
+a{color:#235784;text-underline-offset:.2em}
+nav, .links{display:flex;flex-wrap:wrap;gap:.5rem 1.15rem}
+nav{padding:1.2rem 0;border-bottom:1px solid #e3d2d2}
+header{display:grid;grid-template-columns:minmax(0,1fr) 200px;gap:2rem;align-items:start;padding:2.6rem 0}
+h1,h2{font-family:Georgia,serif;line-height:1.15}
+h1{font-size:clamp(2.6rem,8vw,4.5rem);margin:.25rem 0 .7rem}
+h2{font-size:1.75rem;margin:0 0 1rem}
+.eyebrow{margin:0;color:#46586c;font-size:.85rem;letter-spacing:.07em;text-transform:uppercase}
+.portrait{aspect-ratio:1;border-radius:14px;background:#eadbde;display:grid;place-items:center;overflow:hidden}
+.portrait img{width:100%;height:100%;object-fit:cover}
+section{border-top:1px solid #e3d2d2;padding:1.7rem 0}
+article+article{margin-top:1.25rem}
+article h3,article p{margin:0}
+article h3{font-size:1rem}
+li+li{margin-top:.55rem}
+@media(max-width:600px){header{grid-template-columns:1fr;gap:1rem}.portrait{grid-row:1;width:135px}}
+.chinese-name {
+  font-family: "Kaiti SC", KaiTi, "STKaiti", serif;
+  font-size: 0.55em;
+  font-weight: normal;
+  margin-left: 0.5rem;
+}
+</style>
+</head>
+<body>
+<nav aria-label="Main navigation">
+<a href="#about">About</a><a href="#research">Research</a><a href="#publications">Publications</a><a href="#education">Education</a><a href="#talks">Selected Talks</a></nav>
+<main>
+<header id="about">
+<div>
+<p class="eyebrow">Symbolic Computation · Computer Algebra</p>
+<h1 style="display: inline;">Yisen Wang</h1> 
+<span lang="zh-CN" class="chinese-name" style="font-size: 1.5rem; margin-left: 0.6rem;">王艺森</span>
+<p>Altenberger Straße 69, A-4040 Linz, Austria <br> Nationality: Chinese</p>
+<p>I am currently a junior researcher at the <a href="https://www.oeaw.ac.at/ricam/">Johann Radon Institute for Computational and Applied Mathematics (RICAM), Austrian Academy of Sciences</a> and a <strong>Ph.D. student</strong> in computational mathematics at <a href="https://www.jku.at/">Johannes Kepler University Linz</a>. In June 2026, I completed an integrated M.Sc.–Ph.D. program and obtained a Ph.D. degree in applied mathematics at the <a href="http://english.amss.cas.cn/">Academy of Mathematics
+and Systems Science (AMSS), Chinese Academy of Sciences</a>. I am very fortunate to be cosupervised by <a href="http://www.mmrc.iss.ac.cn/~schen/">Shaoshi Chen</a> from AMSS, Chinese Academy of Sciences and <a href="http://www.koutschan.de/">Christoph Koutschan</a> from RICAM, Austrian Academy of Sciences.</p>
+<p>
+  I am currently <strong>seeking a postdoctoral position</strong>
+  in symbolic computation, computer algebra, or a related area of
+  computational mathematics.
+</p>
+<div class="links"><a href="./CV.pdf">CV (PDF)</a>Email:<a href="mailto:yisen.wang@ricam.oeaw.ac.at">yisen.wang@ricam.oeaw.ac.at</a> <a href="mailto:wangyisen@amss.ac.cn">wangyisen@amss.ac.cn</a>ORCID:<a href="https://orcid.org/0009-0008-6352-051X">0009-0008-6352-051X</a></div>
+</div>
+<!-- To add your photo, replace the text inside this div with:
+<img src="portrait.png" alt="Portrait of Yisen Wang">
+Then place portrait.jpg alongside this HTML file. -->
+<div class="portrait"><img src="portrait.png" alt="Portrait of Yisen Wang"></div>
+</header>
+<section id="research">
+<h2>Research</h2>
+<p>My doctoral research is in symbolic computation, with a focus on symbolic integration and summation, creative telescoping, and algorithms for differential and difference forms.</p>
+<ul>
+<li><strong>Symbolic integration and summation.</strong> I develop reduction algorithms for rational functions and investigate how these methods extend to differential and difference forms.</li>
+<li><strong>Creative telescoping.</strong> I study how reduction methods yield telescopers for definite integrals and sums and how residues can explain their minimality.</li>
+<li><strong>Combinatorial Identities.</strong> I study the algebraic structure of Wilf–Zeilberger (WZ) pairs and their higher-dimensional analogues, and explore how to use them to discover and prove identities.</li>
+</ul>
+<p>I am interested in special functions and q-series, particularly in problems at the intersection of computer algebra and combinatorics.</p>
+</section>
+<section id="publications">
+<h2>Publications</h2>
+<article><h3>Symbolic Integration of Differential Forms: From Abel to Zeilberger</h3><p>Shaoshi Chen, David A. Cox, and Yisen Wang</p><p>To appear in <em>Mathematics of Computation</em>. <a href="https://arxiv.org/abs/2601.00721">arXiv:2601.00721</a>.</p></article>
+<article><h3>On the Summability Problem of Multivariate Rational Functions in the Mixed Case</h3><p>Shaoshi Chen, Lixin Du, Hanqian Fang, and Yisen Wang</p><p><em> Proceedings of the
+51st International Symposium on Symbolic and Algebraic Computation (ISSAC 2026)</em>, pp. 96–104. <a href="https://dl.acm.org/doi/10.1145/3815436.3815462">doi:10.1145/3815436.3815462</a>.</p></article>
+<article><h3>How to Generate All Possible Rational Wilf–Zeilberger Forms?</h3><p>Shaoshi Chen, Christoph Koutschan, and Yisen Wang</p><p><em>Journal of Symbolic Computation</em> 132 (2026), Article 102473. <a href="https://dl.acm.org/doi/10.1016/j.jsc.2025.102473">doi:10.1016/j.jsc.2025.102473</a>.</p></article>
+<article><h3>Automated Formal Proofs of Combinatorial Identities via Wilf–Zeilberger Guidance and LLMs</h3><p>Beibei Xiong, Hangyu Lv, Junqi Liu, Yisen Wang, Shaoshi Chen, Jianlin Wang, Zhengfeng Yang, and Lihong Zhi</p><p><em> Proceedings of Forty-third International Conference on Machine
+Learning (ICML 2026)</em>, Seoul, South Korea. <a href="https://proceedings.mlr.press/v306/xiong26i.html">PMLR 306:140406-140434</a>, 2026.</p></article>
+<article><h3>Non-Minimality of Minimal Telescopers Explained by Residues</h3><p>Shaoshi Chen, Manuel Kauers, Christoph Koutschan, Xiuyun Li, Rong-Hua Wang, and Yisen Wang</p><p><em> Proceedings of the
+50th International Symposium on Symbolic and Algebraic Computation (ISSAC 2025)</em>, pp. 70–78. <a href="https://dl.acm.org/doi/10.1145/3747199.3747548">doi:10.1145/3747199.3747548</a>.</p></article>
+</section>
+<section id="education"><h2>Education</h2>
+<ul>
+<li><strong><a href="https://www.jku.at/">Johannes Kepler University Linz</a></strong> · Ph.D. program in Computational Mathematics, September 2023–2027 (expected). Supervisor: Christoph Koutschan and Shaoshi Chen.</li>
+<li><strong><a href="https://english.ucas.edu.cn/">University of Chinese Academy of Sciences</a></strong> · Integrated M.Sc.–Ph.D. in Applied Mathematics, September 2021–June 2026. Supervisor: Shaoshi Chen.</li>
+<li><strong><a href="https://ev.buaa.edu.cn/">Beihang University</a></strong> · Bachelor’s degree in Mathematics and Applied Mathematics, September 2017–June 2021.</li>
+</ul></section>
+<section id="talks"><h2>Selected Talks</h2>
+<ul>
+<li><em>On the Summability Problem of Multivariate Rational Functions in the Mixed Case</em> · <a href="https://www.issac-conference.org/2026/">ISSAC 2026</a>, Oldenburg, Germany. <a href="./Slides_ISSAC2026_Summability.pdf">Slides (PDF)</a></li>
+<li><em>Symbolic Integration of Differential Forms with Rational Coefficients</em> · Linz Algebra Research Day, <a href="https://risc.jku.at/">RISC</a>, Hagenberg, Austria, June 2026.</li>
+<li><em>Non-Minimality of Minimal Telescopers Explained by Residues</em> · <a href="https://www.issac-conference.org/2025/">ISSAC 2025</a>, Guanajuato, Mexico. <a href="./Slides_ISSAC2025_SubmoduleCT.pdf">Slides (PDF)</a></li>
+<li><em>How to Generate All Possible Rational Wilf–Zeilberger Forms?</em> Aug. 2024, University of Vienna. <a href="./Slides_Vienna_AddOreSato.pdf">Slides (PDF)</a></li>
+<li> <em>Symbolic Computation in Abel’s Addition Theorem for Algebraic Integrals</em> · <a href="http://mmrc.iss.ac.cn/cscm/cm2023/">CM 2023</a>. Dalian, China. <a href="./Slides_CM2023_AbelThm.pdf">Slides (PDF)</a></li>
+</ul></section>
+<section><h2>Teaching</h2><p><strong>Teaching Assistant, Linear Algebra</strong><br>University of Chinese Academy of Sciences · March–June 2025<br>Course instructor: <a href="
+http://www.mmrc.iss.ac.cn/~zmli/">Ziming Li</a></p></section>
+<section id="outside"><h2>Outside Research</h2>
+I love dogs and spicy food, especially hot pot. I love going to concerts, and my favourite singers are Joker Xue (薛之谦) and Ronghao Li  (李荣浩). I've taken up working out in recent years.
+</section>
+</main>
+</body>
+<footer>
+  <p><small>Last updated: <time datetime="2026-11-07">7 November 2026</time></small></p>
+</footer>
+</html>
